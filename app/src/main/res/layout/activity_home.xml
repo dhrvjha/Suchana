@@ -1,0 +1,60 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/photoID"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/photoID"
+        android:orientation="vertical"
+        android:id="@+id/profile_text"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="name"
+            android:id="@+id/name"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="reg. no"
+            android:id="@+id/registraion"/>
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="semester"
+            android:id="@+id/semester"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="year"
+            android:id="@+id/year"
+            android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_below="@+id/profile_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/change_password"
+        android:text="Change Password"
+        android:textSize="9sp"
+        />
+    
+</RelativeLayout>

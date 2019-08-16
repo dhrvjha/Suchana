@@ -1,0 +1,48 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/suchanatag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:gravity="center"
+        android:text="Suchana"
+        android:textColor="#E6FF0000"
+        android:textSize="70sp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userID"
+        android:inputType="number"
+        android:hint="201900197"
+        android:layout_gravity="center"
+        android:paddingStart="2sp"
+        android:layout_marginTop="140sp"
+        android:paddingLeft="2sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userpassword"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:paddingStart="2sp"
+        android:layout_marginTop="3sp"
+        android:paddingLeft="2sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="3sp"
+        android:id="@+id/login"
+
+        />
+
+</LinearLayout>
